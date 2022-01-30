@@ -40,7 +40,7 @@ extension WeatherViewController: UITextFieldDelegate{
         if searchTextField.text != ""{
             return true
         }else {
-            textField.placeholder = "Escreve algo ae tiu"
+            textField.placeholder = "Digite um local"
             return false
         }
     }
